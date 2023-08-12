@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+
+<script>
+	
+	//document.write("Se passaram " + Math.round((2023 - 1500)/28) + " gerações desde 1500 até o ano atual.")
+
+	function pulaLinha() {
+
+		document.write("<br>");
+
+		}
+
+	function mostra(frase) {
+
+		document.write("<big>" + frase + "</big>");
+		pulaLinha();
+
+		}
+
+	var anoDaChegadaDosPortuguesesNoBrasil = 1500;
+	var anoAtual = 2023;
+
+	mostra("<h1>O Problema das Gerações</h1>");
+	mostra("Se passaram " + Math.round((anoAtual - anoDaChegadaDosPortuguesesNoBrasil)/28) + " gerações desde 1500 até o ano atual.");
+
+</script>
